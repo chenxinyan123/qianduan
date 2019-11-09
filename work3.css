@@ -1,0 +1,24 @@
+ul,li {
+    margin: 0;
+    padding-left: 5px;
+}
+.container li:hover {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    width: 250px;
+    height: 60px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.container>li{
+    display: flex;
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    background-color:white;
+}
+
